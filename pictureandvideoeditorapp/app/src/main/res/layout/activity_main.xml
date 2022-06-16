@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bk">
+
+   <Button
+       android:id="@+id/pic"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="250dp"
+       android:layout_marginTop="200dp"
+       android:layout_marginRight="50dp"
+       android:layout_marginBottom="100dp"
+       android:background="@color/purple"
+
+       android:gravity="center"
+       android:text="video"
+       android:textColor="@color/white"
+       android:textSize="20sp">
+
+   </Button>
+
+   <Button
+       android:id="@+id/video"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="50dp"
+       android:layout_marginTop="200dp"
+       android:layout_marginRight="250dp"
+       android:layout_marginBottom="100dp"
+       android:background="@color/purple"
+       android:gravity="center"
+       android:text="pic"
+       android:textColor="@color/white"
+       android:textSize="20sp">
+
+   </Button>
+   <Button
+       android:id="@+id/edit"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="150dp"
+       android:layout_marginTop="300dp"
+       android:layout_marginRight="150dp"
+       android:layout_marginBottom="100dp"
+       android:background="@color/purple"
+       android:gravity="center"
+       android:text="Edit"
+       android:textColor="@color/white"
+       android:textSize="20sp">
+
+   </Button>
+
+
+</RelativeLayout>
