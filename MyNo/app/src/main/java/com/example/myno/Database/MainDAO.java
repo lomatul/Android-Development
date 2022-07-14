@@ -38,6 +38,8 @@ public interface MainDAO {
 //we need to create another abstract class for our room database
 
 
+    @Query("UPDATE notes SET pinned = :pin WHERE ID =:id")
+    void pin(int id, boolean pin);
 
 
 
