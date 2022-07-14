@@ -6,6 +6,7 @@ import androidx.room.PrimaryKey;
 
 import java.io.Serializable;
 @Entity(tableName = "Notes")
+
 public class Notes implements Serializable {
     //we need to create some objects
 

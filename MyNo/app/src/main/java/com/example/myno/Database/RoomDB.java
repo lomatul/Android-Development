@@ -29,23 +29,14 @@ public abstract class RoomDB extends RoomDatabase {
         return database;
     }
 
+//we have to create an instance of our  data access object or main DAO
+
+    public abstract MainDAO mainDAO();
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+//our database is now ready
 
 
 
