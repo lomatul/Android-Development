@@ -13,10 +13,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyNo"
         tools:targetApi="31">
+
         <activity
             android:name=".NotesTakerActivity"
-            android:theme="@style/Theme.MyNo.NoActionBar"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.MyNo.NoActionBar" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
